@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/company/weather_ws/v1/repository/SensorReadingsRepository.java" value="b1e559f6-db92-4bc9-b6fd-23b018727ca2" />
+  </component>
+</project>

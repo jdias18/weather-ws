@@ -1,0 +1,177 @@
+type: collection.insomnia.rest/5.0
+name: My Collection
+meta:
+  id: wrk_cd7663dc33a04f95b26238869cf0d973
+  created: 1758046134928
+  modified: 1758046134928
+  description: ""
+collection:
+  - url: http://localhost:8080/api/v1/sensor/addReading
+    name: addReadings
+    meta:
+      id: req_2dd62dc9f8c5415981dd6a42cf1abb77
+      created: 1758046147363
+      modified: 1758482845167
+      isPrivate: false
+      description: ""
+      sortKey: -1758046147365
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "sensorId": "4",
+          "temperature": "40.0",
+          "feelsLike": "35.0",
+          "humidityPercent": "20.0",
+          "wind": "20.0",
+          "speed": "20.0",
+          "quality": "20.0",
+          "visibility": "20.0",
+          "pressure": "20.0"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/api/v1/sensor/findAllSensorReadings
+    name: findAllSensorReadings
+    meta:
+      id: req_3b22540f0bed44d8a8cf7517cb9068f2
+      created: 1758046948960
+      modified: 1758501029394
+      isPrivate: false
+      description: ""
+      sortKey: -1758046948960
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/api/v1/sensor/averageAllByDate/TEMPERATURE/2025-09-17T22:32:50.113651/2025-09-21T23:32:50.113651
+    name: averageAll
+    meta:
+      id: req_97d22705480a429b88d8753ff9686880
+      created: 1758135384833
+      modified: 1758493449585
+      isPrivate: false
+      description: ""
+      sortKey: -1758046548162.5
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/api/v1/sensor/addSensor
+    name: addSensor
+    meta:
+      id: req_4f8275e6ce2c46848ca49007cf7c6b7c
+      created: 1758292912319
+      modified: 1758482400199
+      isPrivate: false
+      description: ""
+      sortKey: -1758046147315
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "description": "Sensor Belfast East",
+          "model": "XYZ",
+          "brand": "Genesys",
+          "country": "North Ireland",
+          "city": "Belfast",
+          "region": "EU",
+          "active": "y"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/api/v1/sensor/averageByIdAndDate/TEMPERATURE/3/2025-09-17T22:32:50.113651/2025-09-21T23:32:50.113651
+    name: averageByIdAndDate
+    meta:
+      id: req_9f9c67d3901a4de7a54fe5785f73fb73
+      created: 1758477430694
+      modified: 1758493453099
+      isPrivate: false
+      description: ""
+      sortKey: -1758046347763.75
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/api/v1/sensor/findAllSensor
+    name: findAllSensor
+    meta:
+      id: req_080d5cc7d7244909b4399d519f789077
+      created: 1758487557618
+      modified: 1758501036933
+      isPrivate: false
+      description: ""
+      sortKey: -1758046748561.25
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_d8a87907b4cbc9eb0b0970e07e41fdaca0801b74
+    created: 1758046134970
+    modified: 1758046134970
+environments:
+  name: Base Environment
+  meta:
+    id: env_d8a87907b4cbc9eb0b0970e07e41fdaca0801b74
+    created: 1758046134944
+    modified: 1758046134944
+    isPrivate: false

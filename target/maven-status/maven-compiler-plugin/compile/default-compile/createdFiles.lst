@@ -1,0 +1,13 @@
+com/company/weather_ws/v1/models/Sensor.class
+com/company/weather_ws/v1/repository/SensorReadingsRepository.class
+com/company/weather_ws/v1/service/SensorService.class
+com/company/weather_ws/v1/models/MetricType.class
+com/company/weather_ws/v1/service/SensorServiceImpl.class
+com/company/weather_ws/v1/representations/MetricAverageRepresentation$MetricAverageRepresentationBuilder.class
+com/company/weather_ws/WeatherWsApplication.class
+com/company/weather_ws/v1/repository/SensorRepository.class
+com/company/weather_ws/v1/controller/SensorController.class
+com/company/weather_ws/v1/representations/MetricAverageRepresentation.class
+com/company/weather_ws/v1/dao/SensorServiceDaoImpl.class
+com/company/weather_ws/v1/dao/SensorServiceDao.class
+com/company/weather_ws/v1/models/SensorReadings.class

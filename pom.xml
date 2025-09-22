@@ -8,11 +8,11 @@
 		<version>3.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.genesys</groupId>
+	<groupId>com.company</groupId>
 	<artifactId>weather-ws</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>weather-ws</name>
-	<description>Genesys WS API to provide weather services</description>
+	<description>WS API to provide weather services</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -55,6 +55,11 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.18.0</version>
+        </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -90,5 +95,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

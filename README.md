@@ -1,29 +1,35 @@
-Path: "/createSensor"
-HTTP Method: POST
-{
-  "description": "",
-  "model": "",
-  "brand": "",
-}
+Specifications:
+* Java 17
+* Spring Boot
+  * Spring Web MVC
+  * Spring Data JPA
+  * Spring DevTools
+* lombok
+* Postgres Database
 
-Path: "/reading"
-HTTP Method: POST
-{
-  "sensorId": "",
-  "celsius": "",
-  "feelsLike": "",
-  "humidity": "",
-  "wind": "",
-  "speed": ""
-  "quality": "",
-  "visibility": "",
-  "pressure": ""
-}
+Database:
+* Diagram & Tables creation scripts are available in the database folder.
+
+Payloads:
+* Insomnia payload collection available in the payload folder.
+
+Tests:
+* I have implemented unit tests for Controller and Service Layers.
+* I have added test evidences in the test_Evidences folder.
+
+Requirements:
+* I have developed both required functions to get AVG based on metric, start/end dates 
+* and also including the sensorId.
+* I have decided to use AVG function from the Database do be more accurate.
+
+Next steps:
+1) Complete unit tests on the DAO layer.
+2) Implement more validations.
+3) Implement Logs (e.g. using log4j).
+4) Add Security layer - e.g. Authentication (https) based on tokenization in the header.
+5) Add OpenAPI.
+6) SwaggerUI;
+7) Integrated Tests & validation.
 
 
-/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
-/Users/julio/maven
-
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"
-export M2_HOME="/Users/julio/maven"
-export PATH=$PATH:$M2_HOME/bin:$JAVA_HOME/bin
+    

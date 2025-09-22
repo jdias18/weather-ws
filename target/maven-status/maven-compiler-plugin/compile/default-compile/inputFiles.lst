@@ -1,0 +1,12 @@
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/WeatherWsApplication.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/controller/SensorController.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/dao/SensorServiceDao.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/dao/SensorServiceDaoImpl.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/models/MetricType.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/models/Sensor.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/models/SensorReadings.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/repository/SensorReadingsRepository.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/repository/SensorRepository.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/representations/MetricAverageRepresentation.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/service/SensorService.java
+/Users/julio/IdeaProjects/weather-ws/src/main/java/com/company/weather_ws/v1/service/SensorServiceImpl.java

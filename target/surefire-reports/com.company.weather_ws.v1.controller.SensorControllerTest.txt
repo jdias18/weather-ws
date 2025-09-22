@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.company.weather_ws.v1.controller.SensorControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.952 s -- in com.company.weather_ws.v1.controller.SensorControllerTest
